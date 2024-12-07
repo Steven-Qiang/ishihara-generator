@@ -1,0 +1,28 @@
+{
+  "name": "ishihara-generator",
+  "version": "1.0.0",
+  "description": "基于NodeJS的自定义内容石原氏色盲检测图生成器",
+  "main": "./dist/ishihara.js",
+  "exports": "./dist/ishihara.js",
+  "scripts": {
+    "build": "tsc",
+    "typedoc": "typedoc ./ishihara.ts"
+  },
+  "typings": "./dist/ishihara.d.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typedoc": "^0.27.3",
+    "typedoc-plugin-markdown": "^4.3.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "sharp": "^0.33.5"
+  },
+  "engines": {
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+  }
+}
