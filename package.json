@@ -8,10 +8,24 @@
     "build": "tsc",
     "typedoc": "typedoc ./ishihara.ts"
   },
+  "files": [
+    "dist"
+  ],
   "typings": "./dist/ishihara.d.ts",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ishihara",
+    "generator",
+    "ishihara-generator",
+    "colorblindness"
+  ],
+  "author": "StevenQiang <https://github.com/StevenQiang>",
+  "homepage": "https://github.com/StevenQiang/ishihara-generator",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenQiang/ishihara-generator.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.1",
     "typedoc": "^0.27.3",
