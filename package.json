@@ -1,6 +1,6 @@
 {
-  "name": "ishihara-generator",
-  "version": "1.0.0",
+  "name": "ishihara-generator.js",
+  "version": "1.0.1",
   "description": "基于NodeJS的自定义内容石原氏色盲检测图生成器",
   "main": "./dist/ishihara.js",
   "exports": "./dist/ishihara.js",
@@ -8,10 +8,24 @@
     "build": "tsc",
     "typedoc": "typedoc ./ishihara.ts"
   },
+  "files": [
+    "dist"
+  ],
   "typings": "./dist/ishihara.d.ts",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ishihara",
+    "generator",
+    "ishihara-generator",
+    "colorblindness"
+  ],
+  "author": "Steven-Xu <https://github.com/Steven-Qiang>",
+  "homepage": "https://github.com/Steven-Qiang/ishihara-generator",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steven-Qiang/ishihara-generator.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.1",
     "typedoc": "^0.27.3",

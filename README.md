@@ -3,10 +3,20 @@
 
 - [查看文档 (view docs)](docs/classes/IshiharaGenerator.md)
 
-## 测试输出
+## 安装
+
+```shell
+npm i ishihara-generator.js
+# or
+yarn add ishihara-generator.js
+# or
+pnpm i ishihara-generator.js
+```
+
+## 测试
 
 ```javascript
-const { IshiharaGenerator } = require('.');
+const { IshiharaGenerator } = require('ishihara-generator.js');
 (async () => {
     const [width, height] = [1024, 1024];
     const generator = new IshiharaGenerator(width, height, {
