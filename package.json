@@ -18,12 +18,12 @@
     "ishihara-generator",
     "colorblindness"
   ],
-  "author": "StevenQiang <https://github.com/StevenQiang>",
-  "homepage": "https://github.com/StevenQiang/ishihara-generator",
+  "author": "Steven-Xu <https://github.com/Steven-Qiang>",
+  "homepage": "https://github.com/Steven-Qiang/ishihara-generator",
   "readme": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StevenQiang/ishihara-generator.git"
+    "url": "https://github.com/Steven-Qiang/ishihara-generator.git"
   },
   "license": "MIT",
   "devDependencies": {
